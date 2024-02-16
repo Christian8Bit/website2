@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initi">
+
+    <!--------------FAVICON-------------->
+    <link rel="stylesheet" href="assets/images/favicon-32x32.png" type="image/x-icon">
+
+    <!--------------BOXICON-------------->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--------------FONTAWESOME-------------->
+    <script src="https://kit.fontawesome.com/af73e30fad.js" crossorigin="anonymous"></script>
+
+    <!--------------SWIPER CSS-------------->
+    <link rel="stylesheet" href="">
+
+    <!--------------CSS-------------->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title> Christian Bonifacio's Responsive Website </title>
+</head>
+
+<body>
+    <div id="particles-js"></div>
+    <!--------------HEADER-------------->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">Christian</a>
+
+            <div class="nav_menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active-link">
+                            <i class='bx bx-home-alt-2'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link">
+                            <i class='bx bx-user-circle'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link">
+                            <i class='bx bx-book-alt'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#work" class="nav_link">
+                            <i class='bx bx-hard-hat'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#contact" class="nav_link">
+                            <i class='bx bxs-message-square-dots'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!------Theme change button------>
+            <i class="bx bx-moon change-theme" id="theme-button"></i>
+        </nav>
+    </header>
+
+    <!--------------MAIN-------------->
+    <main class="main">
+        <!--------------HOME-------------->
+        <section class="home section" id="home">
+            <div class="home_container container grid">
+                <div class="home_data">
+                    <span class="home_greeting">Hi there! I'm</span>
+                    <h1 class="home_name">Christian Bonifacio</h1>
+                    <h3 class="home_education">Growing Developer</h3>
+
+                    <div class="home_buttons">
+                        <a download="" href="assets/pdf/Bonifacio Christian Bautista (1) (3).pdf"
+                            class="button button--ghost">
+                            Download CV
+                        </a>
+                        <a href="#about" class="button">About Me</a>
+                    </div>
+                </div>
+
+                <div class="home_handle">
+                    <img src="assets/images/emojiMe-removebg-preview.png" alt="" class="home_img">
+                </div>
+
+                <div class="home_social">
+                    <a href="https://www.linkedin.com/in/christian-bonifacio-linkedup/" class="home_social-link">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+
+                    <a href="https://github.com/Christian8Bit" class="home_social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                </div>
+
+                <a href="#about" class="home_scroll">
+                    <i class='bx bxs-mouse home_scroll-icon'></i>
+                    <span class="home_scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!--------------ABOUT-------------->
+        <section class="about section" id="about">
+            <span class="section_subtitle">Thank you for clicking into my website!</span>
+            <h2 class="section_title">About Me</h2>
+
+            <div class="about_container container grid">
+                <img src="assets/images/me.png" alt="" class="about_img">
+
+                <div class="about_data">
+                    <div class="about_info">
+                        <div class="about_box">
+                            <i class='bx bx-award'></i>
+                            <h3 class="about_title">Experience</h3>
+                            <span class="about_subtitle"><i class="fa-solid fa-g"></i>rab work :)</span>
+                        </div>
+
+                        <div class="about_box">
+                            <i class='bx bx-briefcase-alt'></i>
+                            <h3 class="about_title">Projects</h3>
+                            <span class="about_subtitle">This website!</span>
+                        </div>
+
+                        <div class="about_box">
+                            <i class='bx bx-support'></i>
+                            <h3 class="about_title">Support</h3>
+                            <span class="about_subtitle">I'll try with every waking hour</span>
+                        </div>
+                    </div>
+
+                    <p class="about_description">
+                        Growing developer that will take on any challenge. Coming up with more projects to practice
+                        along the way.
+                    </p>
+
+                    <a href="#contact" class="button">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!--------------SKILLS-------------->
+        <section class="skills section" id="skills">
+            <span class="section_subtitle">My abilities</span>
+            <h2 class="section_title">These are my experiences</h2>
+
+            <div class="skills_container container grid">
+                <div class="skills_content">
+                    <h3 class="skills_title">Frontend Development</h3>
+
+                    <div class="skills_box">
+                        <div class="skills_group">
+                            <div class="skills_data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills_name"><i class='bx bxl-html5'></i>HTML</h3>
+                                    <span class="skills_level">Basic</span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills_name"><i class='bx bxl-css3'></i>CSS</h3>
+                                    <span class="skills_level">Basic</span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills_name"><i class='bx bxl-javascript'></i>Javascript</h3>
+                                    <span class="skills_level">Basic</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills_content">
+                    <h3 class="skills_title">Backend Development</h3>
+
+                    <div class="skills_box">
+                        <div class="skills_group">
+                            <div class="skills_data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills_name"><i class='bx bxl-java'></i>Java</h3>
+                                    <span class="skills_level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills_name">MySQL</h3>
+                                    <span class="skills_level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------------SERVICES-------------->
+        <section class="services section">
+            <span class="section_subtitle">My Services</span>
+            <h2 class="section_title">What I can do for you</h2>
+
+            <div class="services_container container grid">
+                <div class="services_card">
+                    <h3 class="services_title">Website <br> Development</h3>
+
+                    <span class="services_button">
+                        See more <i class='bx bx-search-alt services_icon'></i>
+                    </span>
+
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <i class='bx bx-x services_modal-close'></i>
+
+                            <h3 class="services_modal-title">Website Development</h3>
+                            <p class="services_modal-description">
+                                Bringing you a aesthetically pleasing website.
+                            </p>
+
+                            <ul class="services_modal-list">
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        I develop the user interface.
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Web page development.
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Creating UX element interactions.
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Develop the website that you need.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services_card">
+                    <h3 class="services_title">iOS <br> Application Development</h3>
+
+                    <span class="services_button">
+                        See more <i class='bx bx-search-alt services_icon'></i>
+                    </span>
+
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <i class='bx bx-x services_modal-close'></i>
+
+                            <h3 class="services_modal-title">iOS Development</h3>
+                            <p class="services_modal-description">
+                                Bringing you a aesthetically pleasing application.
+                            </p>
+
+                            <ul class="services_modal-list">
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        I develop the user interface.
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Application development.
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Creating UX element interactions.
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Develop the application that you need.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services_card">
+                    <h3 class="services_title">Android <br> Application Development</h3>
+
+                    <span class="services_button">
+                        See more <i class='bx bx-search-alt services_icon'></i>
+                    </span>
+
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <i class='bx bx-x services_modal-close'></i>
+
+                            <h3 class="services_modal-title">Android Development</h3>
+                            <p class="services_modal-description">
+                                Bringing you a aesthetically pleasing application.
+                            </p>
+
+                            <ul class="services_modal-list">
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        I develop the user interface.
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Application development.
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Creating UX element interactions.
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Develop the application that you're need.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------------WORK-------------->
+        <section class="work section" id="work">
+            <span class="section_subtitle">My Portfolio</span>
+            <h2 class="section_title">Recent Works</h2>
+
+            <div class="work_filters">
+                <span class="work_item active-work" data-filter="all">All</span>
+                <span class="work_item" data-filter=".web">Web</span>
+                <span class="work_item" data-filter=".ios">iOS</span>
+                <span class="work_item" data-filter=".android">Android</span>
+            </div>
+
+            <div class="work_container container grid">
+                <div class="work_card mix web">
+                    <img src="assets/images/work1.jpg" alt="" class="work_img">
+
+                    <h3 class="work_title">Web Development</h3>
+
+                    <a href="#" class="work_button">
+                        Demo <i class='bx bx-search-alt work_icon' ></i>
+                    </a>
+                </div>
+
+                <div class="work_card mix web">
+                    <img src="assets/images/work2.jpg" alt="" class="work_img">
+
+                    <h3 class="work_title">Google Sheet & Google Script </h3>
+
+                    <a href="#" class="work_button">
+                        Demo <i class='bx bx-search-alt work_icon' ></i>
+                    </a>
+                </div>
+
+                <div class="work_card mix ios">
+                    <img src="assets/images/work3.png" alt="" class="work_img">
+
+                    <h3 class="work_title">iOS Development</h3>
+
+                    <a href="#" class="work_button">
+                        Demo <i class='bx bx-search-alt work_icon' ></i>
+                    </a>
+                </div>
+
+                <div class="work_card mix android">
+                    <img src="assets/images/work4.jpg" alt="" class="work_img">
+
+                    <h3 class="work_title">Google Sheet & Google Script </h3>
+
+                    <a href="#" class="work_button">
+                        Demo <i class='bx bx-search-alt work_icon' ></i>
+                    </a>
+                </div>
+
+                <div class="work_card mix ios">
+                    <img src="assets/images/work3.png" alt="" class="work_img">
+
+                    <h3 class="work_title">iOS Development</h3>
+
+                    <a href="#" class="work_button">
+                        Demo <i class='bx bx-search-alt work_icon' ></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--------------CONTACT-------------->
+        <section class="contact section" id="contact">
+
+        </section>
+
+    </main>
+
+        <!--------------MIXITUP JS-------------->
+        <script src="assets/js/mixitup.min.js"></script>
+
+        <!--------------MAIN JS-------------->
+        <script src="assets/js/main.js"></script>
+</body>
+
+</html>
