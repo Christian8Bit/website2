@@ -1,4 +1,4 @@
-#Responsive Web portfolio - (continuous improvement)
+# Responsive Web portfolio - (continuous improvement)
 
 Welcome to my (still improving) portfolio website!
 Very much appreciate any criticism to better my code in terms of functionality, possible flaws and readibility. 
